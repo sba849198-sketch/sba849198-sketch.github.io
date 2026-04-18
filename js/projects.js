@@ -5,7 +5,7 @@ var PROJECTS = [
   {
     id: "souga",
     slug: "souga",
-    title: "سوقة — Souga",
+    title: "سوقا — Souga",
     subtitle: "سوق إلكتروني محلي يربط البائعين بالمشترين",
     description: "سوقة هو تطبيق سوق إلكتروني متكامل يربط البائعين المحليين بالمشترين في منطقتهم. يوفر التطبيق تجربة تسوق سلسة مع نظام تقييمات ومحادثات مباشرة وإدارة طلبات متقدمة.",
     longDescription: "سوقة منصة تجارة إلكترونية محلية مبنية بـ Flutter وFirebase.\n\nالميزات الرئيسية:\n• نظام تسجيل دخول آمن مع Firebase Auth\n• رفع صور المنتجات عبر ImageKit مع تحسين تلقائي\n• محادثات مباشرة بين المشترين والبائعين\n• نظام تقييمات ومراجعات\n• إشعارات فورية بحالة الطلبات\n• إعلانات تسويقية بالذكاء الاصطناعي (Gemini)\n• دعم 42 عملة عالمية\n• لوحة تحكم للمدير مع إدارة كاملة",
@@ -26,7 +26,7 @@ var PROJECTS = [
       // "https://raw.githubusercontent.com/YOUR_USERNAME/souga/main/screenshots/products.png",
       // "https://raw.githubusercontent.com/YOUR_USERNAME/souga/main/screenshots/cart.png"
     ],
-    downloadUrl: "https://github.com/YOUR_USERNAME/souga/releases/download/v1.0.0/souga-v1.0.0.apk",
+    downloadUrl: "https://github.com/sba849198-sketch/abdulquddus-aqdev.github.io/releases/download/v1.0.1/app-release_souga.apk",
     sourceUrl: "",
     demoUrl: "",
     featured: true,
