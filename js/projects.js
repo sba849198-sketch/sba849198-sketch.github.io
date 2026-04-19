@@ -1,70 +1,113 @@
-// js/projects.js v2
-// ملاحظة: لا نستخدم backticks (template literals) لأن بعض المتصفحات القديمة لا تدعمها
-
+// js/projects.js v3
 var PROJECTS = [
   {
     id: "souga",
-    slug: "souga",
-    title: "سوجا — Souga",
+    title: "سوقة — Souga",
     subtitle: "سوق إلكتروني محلي يربط البائعين بالمشترين",
-    description: "سوقة هو تطبيق سوق إلكتروني متكامل يربط البائعين المحليين بالمشترين في منطقتهم. يوفر التطبيق تجربة تسوق سلسة مع نظام تقييمات ومحادثات مباشرة وإدارة طلبات متقدمة.",
-    longDescription: "سوجا منصة تجارة إلكترونية محلية مبنية بـ Flutter وFirebase.\n\nالميزات الرئيسية:\n• نظام تسجيل دخول آمن مع Firebase Auth\n• رفع صور المنتجات عبر ImageKit مع تحسين تلقائي\n• محادثات مباشرة بين المشترين والبائعين\n• نظام تقييمات ومراجعات\n• إشعارات فورية بحالة الطلبات\n• إعلانات تسويقية بالذكاء الاصطناعي (Gemini)\n• دعم 42 عملة عالمية\n• لوحة تحكم للمدير مع إدارة كاملة",
+    description: "تطبيق تجارة إلكترونية متكامل بثلاثة أدوار: مشتري وبائع ومدير.",
+    longDescription: "سوقة منصة تجارة إلكترونية محلية مبنية بـ Flutter وFirebase.\n\nالميزات الرئيسية:\n• تسجيل دخول آمن مع Firebase Auth\n• رفع صور المنتجات عبر ImageKit\n• محادثات مباشرة بين المشترين والبائعين\n• نظام تقييمات ومراجعات\n• إشعارات فورية بحالة الطلبات\n• إعلانات تسويقية بالذكاء الاصطناعي Gemini\n• دعم 42 عملة عالمية\n• لوحة تحكم للمدير",
     type: "android",
     platform: "Android",
     status: "released",
-    version: "1.0.0",
+    version: "1.0.1",
     size: "24 MB",
     category: "تجارة إلكترونية",
     tags: ["Flutter", "Firebase", "Dart", "ImageKit", "Gemini AI"],
     color: "#DC143C",
     accentColor: "#FFB300",
     icon: "🛒",
-    // ─── أضف روابط screenshots من GitHub أو ImageKit ────────────────
-    // مثال: "https://raw.githubusercontent.com/USER/REPO/main/screenshots/screen1.png"
+    appIcon: "https://raw.githubusercontent.com/sba849198-sketch/abdulquddus-aqdev.github.io/main/images/1774761818932~2.png",
     screenshots: [
-       "https://raw.githubusercontent.com/sba849198-sketch/abdulquddus-aqdev.github.io/main/images/1774761818932~2.png",
-       "https://raw.githubusercontent.com/sba849198-sketch/abdulquddus-aqdev.github.io/main/images/Screenshot_٢٠٢٦٠٤١٨-١٢٠٥٤٢.png",
-       "https://raw.githubusercontent.com/sba849198-sketch/abdulquddus-aqdev.github.io/main/images/Screenshot_٢٠٢٦٠٤١٨-١٢٠٤٤٦.png",
-       "https://raw.githubusercontent.com/sba849198-sketch/abdulquddus-aqdev.github.io/main/images/Screenshot_٢٠٢٦٠٤١٨-١٢٠٤٣٩.png",
-       "https://raw.githubusercontent.com/sba849198-sketch/abdulquddus-aqdev.github.io/main/images/Screenshot_٢٠٢٦٠٤١٨-١٢٠٤٠٦.png"
+      // أضف روابط صور هنا بعد رفعها:
+      // "https://raw.githubusercontent.com/sba849198-sketch/abdulquddus-aqdev.github.io/main/images/souga-screen1.jpg"
     ],
     downloadUrl: "https://github.com/sba849198-sketch/abdulquddus-aqdev.github.io/releases/download/v1.0.1/app-release_souga.apk",
     sourceUrl: "",
     demoUrl: "",
     featured: true,
     date: "2026",
-    stats: { downloads: "1K+", rating: "4.8", reviews: "120+" }
+    stats: { downloads: "500+", rating: "4.8", reviews: "45+" }
+  },
+  {
+    id: "shaibai-desktop",
+    title: "ShaibAI Desktop",
+    subtitle: "وكيل ذكاء اصطناعي محلي لسطح المكتب Windows",
+    description: "تطبيق Windows يتصل بـ LM Studio لتشغيل نماذج AI محلياً بالكامل بدون إنترنت.",
+    longDescription: "ShaibAI وكيل ذكاء اصطناعي محلي مبني بـ C# و.NET WinForms.\n\nالميزات:\n• يعمل بالكامل بدون إنترنت عبر LM Studio\n• دعم نموذج Qwen2.5-7B-Instruct\n• شريط محادثات جانبي\n• تحميل CPU فقط بدون الحاجة لـ GPU\n• تدفق الاستجابات في الوقت الفعلي\n• واجهة ثنائية اللغة عربي/إنجليزي\n• معالجة نصوص عربية محسّنة",
+    type: "desktop",
+    platform: "Windows",
+    status: "released",
+    version: "2.0.0",
+    size: "85 MB",
+    category: "ذكاء اصطناعي",
+    tags: ["C#", ".NET 4.8", "WinForms", "LM Studio", "Qwen2.5"],
+    color: "#1565C0",
+    accentColor: "#42A5F5",
+    icon: "🤖",
+    appIcon: "",
+    screenshots: [],
+    downloadUrl: "https://github.com/sba849198-sketch/abdulquddus-aqdev.github.io/releases/download/shaibai-v2.0/ShaibAI-Setup.exe",
+    sourceUrl: "",
+    demoUrl: "",
+    featured: false,
+    date: "2026",
+    stats: { downloads: "200+", rating: "4.9", reviews: "28+" }
+  },
+  {
+    id: "shaibai-web",
+    title: "ShaibAI Web",
+    subtitle: "واجهة ويب للذكاء الاصطناعي المحلي",
+    description: "نسخة ASP.NET WebForms من ShaibAI تعمل على أي متصفح وتتصل بـ LM Studio.",
+    longDescription: "ShaibAI Web نسخة ويب من وكيل الذكاء الاصطناعي مبنية بـ ASP.NET WebForms.\n\nالميزات:\n• تعمل على أي متصفح بدون تثبيت\n• تتصل بـ LM Studio عبر REST API\n• streaming responses في الوقت الفعلي\n• واجهة عربية RTL بالكامل\n• تاريخ المحادثات\n• نسخ ومشاركة الردود بسهولة",
+    type: "webapp",
+    platform: "ASP.NET / Windows",
+    status: "released",
+    version: "1.0.0",
+    size: "12 MB",
+    category: "ذكاء اصطناعي",
+    tags: ["C#", "ASP.NET", "WebForms", "LM Studio", "JavaScript"],
+    color: "#7B1FA2",
+    accentColor: "#CE93D8",
+    icon: "🌐",
+    appIcon: "",
+    screenshots: [],
+    downloadUrl: "https://github.com/sba849198-sketch/abdulquddus-aqdev.github.io/releases/download/shaibai-web-v1.0/ShaibAI-WebForm.zip",
+    sourceUrl: "",
+    demoUrl: "",
+    featured: false,
+    date: "2026",
+    stats: { downloads: "150+", rating: "4.7", reviews: "18+" }
+  },
+  {
+    id: "azraknet",
+    title: "الأزرق نت — AzrakNet",
+    subtitle: "صفحة تسجيل دخول لشبكة الإنترنت",
+    description: "واجهة تسجيل دخول احترافية لشبكة الأزرق نت مع تصميم عصري وتجربة مستخدم سلسة.",
+    longDescription: "صفحة تسجيل دخول احترافية لشبكة الأزرق نت.\n\nالميزات:\n• تصميم عصري وجذاب\n• واجهة عربية RTL بالكامل\n• تحقق من بيانات المستخدم\n• رسائل خطأ واضحة وسهلة الفهم\n• متوافق مع جميع الأجهزة\n• تحميل سريع جداً",
+    type: "website",
+    platform: "Web",
+    status: "coming_soon",
+    version: "1.0.0",
+    size: "—",
+    category: "ويب",
+    tags: ["HTML", "CSS", "JavaScript", "Responsive"],
+    color: "#0097A7",
+    accentColor: "#80DEEA",
+    icon: "📡",
+    appIcon: "",
+    screenshots: [],
+    downloadUrl: "",
+    sourceUrl: "",
+    demoUrl: "",
+    featured: false,
+    date: "2026",
+    stats: {}
   }
-  // ─── أضف مشاريع هنا ──────────────────────────────────────────────
 ];
 
 var PROJECT_TYPES = {
-  android: {
-    label: "تطبيق Android",
-    icon: "📱",
-    badge: "Android",
-    downloadLabel: "تحميل APK",
-    color: "#3DDC84"
-  },
-  webapp: {
-    label: "تطبيق ويب",
-    icon: "🌐",
-    badge: "Web App",
-    downloadLabel: "فتح التطبيق",
-    color: "#4285F4"
-  },
-  desktop: {
-    label: "سطح المكتب",
-    icon: "💻",
-    badge: "Desktop",
-    downloadLabel: "تحميل البرنامج",
-    color: "#9C27B0"
-  },
-  website: {
-    label: "موقع ويب",
-    icon: "🔗",
-    badge: "Website",
-    downloadLabel: "زيارة الموقع",
-    color: "#FF6D00"
-  }
+  android: { label: "Android",      icon: "📱", badge: "Android", downloadLabel: "تحميل APK",      color: "#3DDC84" },
+  webapp:  { label: "تطبيق ويب",   icon: "🌐", badge: "Web App", downloadLabel: "فتح التطبيق",   color: "#4285F4" },
+  desktop: { label: "سطح المكتب",  icon: "💻", badge: "Desktop", downloadLabel: "تحميل",          color: "#9C27B0" },
+  website: { label: "موقع ويب",    icon: "🔗", badge: "Website", downloadLabel: "زيارة الموقع",   color: "#FF6D00" }
 };
