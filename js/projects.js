@@ -19,7 +19,10 @@ var PROJECTS = [
     appIcon: "https://raw.githubusercontent.com/sba849198-sketch/abdulquddus-aqdev.github.io/main/images/1774761818932~2.png",
     screenshots: [
       // أضف روابط صور هنا بعد رفعها:
-      // "https://raw.githubusercontent.com/sba849198-sketch/abdulquddus-aqdev.github.io/main/images/souga-screen1.jpg"
+       "https://raw.githubusercontent.com/sba849198-sketch/abdulquddus-aqdev.github.io/main/images/Screenshot_٢٠٢٦٠٤١٨-١٢٠٥٤٢.png",
+       "https://raw.githubusercontent.com/sba849198-sketch/abdulquddus-aqdev.github.io/main/images/Screenshot_٢٠٢٦٠٤١٨-١٢٠٤٤٦.png",
+       "https://raw.githubusercontent.com/sba849198-sketch/abdulquddus-aqdev.github.io/main/images/Screenshot_٢٠٢٦٠٤١٨-١٢٠٤٣٩.png",
+       "https://raw.githubusercontent.com/sba849198-sketch/abdulquddus-aqdev.github.io/main/images/Screenshot_٢٠٢٦٠٤١٨-١٢٠٤٠٦.png"
     ],
     downloadUrl: "https://github.com/sba849198-sketch/abdulquddus-aqdev.github.io/releases/download/v1.0.1/app-release_souga.apk",
     sourceUrl: "",
