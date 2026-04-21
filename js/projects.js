@@ -23,10 +23,10 @@ var PROJECTS = [
     appIcon: "https://raw.githubusercontent.com/sba849198-sketch/abdulquddus-aqdev.github.io/main/images/1774761818932~2.png",
     // لإضافة Screenshots: ارفع الصور في مجلد images/ على GitHub ثم أزل التعليق
     screenshots: [
-      // "https://raw.githubusercontent.com/sba849198-sketch/abdulquddus-aqdev.github.io/main/images/souga-screen1.jpg",
-      // "https://raw.githubusercontent.com/sba849198-sketch/abdulquddus-aqdev.github.io/main/images/souga-screen2.jpg",
-      // "https://raw.githubusercontent.com/sba849198-sketch/abdulquddus-aqdev.github.io/main/images/souga-screen3.jpg",
-      // "https://raw.githubusercontent.com/sba849198-sketch/abdulquddus-aqdev.github.io/main/images/souga-screen4.jpg"
+       "https://raw.githubusercontent.com/sba849198-sketch/abdulquddus-aqdev.github.io/main/images/Screenshot_٢٠٢٦٠٤١٨-١٢٠٥٤٢.png",
+       "https://raw.githubusercontent.com/sba849198-sketch/abdulquddus-aqdev.github.io/main/images/Screenshot_٢٠٢٦٠٤١٨-١٢٠٤٤٦.png",
+       "https://raw.githubusercontent.com/sba849198-sketch/abdulquddus-aqdev.github.io/main/images/Screenshot_٢٠٢٦٠٤١٨-١٢٠٤٣٩.png",
+       "https://raw.githubusercontent.com/sba849198-sketch/abdulquddus-aqdev.github.io/main/images/Screenshot_٢٠٢٦٠٤١٨-١٢٠٤٣٩.png"
     ],
     downloadUrl: "https://github.com/sba849198-sketch/abdulquddus-aqdev.github.io/releases/download/v1.0.1/app-release_souga.apk",
     sourceUrl: "",
@@ -53,8 +53,11 @@ var PROJECTS = [
     color: "#1565C0",
     accentColor: "#42A5F5",
     icon: "🤖",
-    appIcon: "",
-    screenshots: [],
+    appIcon: "https://raw.githubusercontent.com/sba849198-sketch/abdulquddus-aqdev.github.io/main/images/ShaibAI.ico",
+    screenshots: [
+       "https://raw.githubusercontent.com/sba849198-sketch/abdulquddus-aqdev.github.io/main/images/‏‏لقطة الشاشة (103).png",
+       "https://raw.githubusercontent.com/sba849198-sketch/abdulquddus-aqdev.github.io/main/images/‏‏لقطة الشاشة (104).png"
+    ],
     downloadUrl: "https://github.com/sba849198-sketch/abdulquddus-aqdev.github.io/releases/download/shaibai-v2.0/ShaibAI-Setup.exe",
     sourceUrl: "",
     demoUrl: "",
